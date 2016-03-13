@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://eyow.xyz/"/>
-  <updated>2016-03-07T07:42:19.772Z</updated>
+  <updated>2016-03-13T15:43:56.510Z</updated>
   <id>http://eyow.xyz/</id>
   
   <author>
@@ -14,6 +14,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>笔记-App研发录</title>
+    <link href="http://eyow.xyz/2016/03/13/%E7%AC%94%E8%AE%B0-App%E7%A0%94%E5%8F%91%E5%BD%95/"/>
+    <id>http://eyow.xyz/2016/03/13/笔记-App研发录/</id>
+    <published>2016-03-13T15:09:51.000Z</published>
+    <updated>2016-03-13T15:43:56.510Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;Android开发所需技能自我评测&quot;&gt;&lt;a href=&quot;#Android开发所需技能自我评测&quot; class=&quot;headerlink&quot; title=&quot;Android开发所需技能自我评测&quot;&gt;&lt;/a&gt;Android开发所需技能自我评测&lt;/h2&gt;&lt;p&gt;1、Activity相关。涉及LaunchMode、onSaveInstance-State 、生命周期等。&lt;br&gt;2、Fragment相关。&lt;br&gt;3、序列化相关。&lt;br&gt;4、ImageLoader的原理和使用。&lt;br&gt;5、fastJson或Gson的使用。&lt;br&gt;6、多线程相关。包括Handler、Looper、ExecutorService等。&lt;br&gt;7、Adapter和Listview。&lt;br&gt;8、用户cookie设计。&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;9、网络请求封装。&lt;br&gt;10、Android 与H5交互。&lt;br&gt;11、代码混淆。&lt;br&gt;12、调试工具。&lt;br&gt;13、Android打包机制。&lt;br&gt;14、线上Crash分析并修复。&lt;br&gt;15、内存泄漏。&lt;br&gt;16、Monkey机制。&lt;br&gt;17、单元测试。&lt;br&gt;18、GIT的高级功能。&lt;br&gt;19、插件化编程。&lt;br&gt;20、设计模式。常用工厂、生成器、适配器、代理、策略等。&lt;/p&gt;
+&lt;p&gt;&amp;amp;：最近状态不是很好，零零散散差不多两天把《App研发录》过了一遍，有实在东西的一本书，相看恨晚。&lt;br&gt;书后列举的几个技能觉得开发者很必要掌握，在此记录一下，虽有涉猎，却未能完全精通，最近要加强下啦~&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Android开发所需技能自我评测&quot;&gt;&lt;a href=&quot;#Android开发所需技能自我评测&quot; class=&quot;headerlink&quot; title=&quot;Android开发所需技能自我评测&quot;&gt;&lt;/a&gt;Android开发所需技能自我评测&lt;/h2&gt;&lt;p&gt;1、Activity相关。涉及LaunchMode、onSaveInstance-State 、生命周期等。&lt;br&gt;2、Fragment相关。&lt;br&gt;3、序列化相关。&lt;br&gt;4、ImageLoader的原理和使用。&lt;br&gt;5、fastJson或Gson的使用。&lt;br&gt;6、多线程相关。包括Handler、Looper、ExecutorService等。&lt;br&gt;7、Adapter和Listview。&lt;br&gt;8、用户cookie设计。
+    
+    </summary>
+    
+    
+      <category term="笔记" scheme="http://eyow.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo部署遇到的问题</title>
