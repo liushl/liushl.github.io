@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://eyow.xyz/"/>
-  <updated>2016-03-18T02:12:22.305Z</updated>
+  <updated>2016-03-19T04:16:29.247Z</updated>
   <id>http://eyow.xyz/</id>
   
   <author>
@@ -16,11 +16,95 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Markdown语法简记</title>
+    <link href="http://eyow.xyz/2016/03/19/Markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E8%AE%B0/"/>
+    <id>http://eyow.xyz/2016/03/19/Markdown语法简记/</id>
+    <published>2016-03-19T04:03:56.000Z</published>
+    <updated>2016-03-19T04:16:29.247Z</updated>
+    
+    <content type="html">&lt;p&gt;刚刚改用Markdown，记录下基本语法，分享如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;列表&lt;pre&gt;&lt;code&gt;-或*无序列表
+1.2.有序列表
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;无序1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;无序2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;引用&lt;pre&gt;&lt;code&gt;&amp;gt; 加尖括号,例：&amp;gt;引用
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;引用&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;图片&lt;pre&gt;&lt;code&gt;![](),例：![图片](http://7xrlxf.com1.z0.glb.clouddn.com/jianshu.jpg &amp;quot;头像&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;img src=&quot;http://7xrlxf.com1.z0.glb.clouddn.com/jianshu.jpg&quot; alt=&quot;图片&quot; title=&quot;头像&quot;&gt;&lt;/li&gt;
+&lt;li&gt;链接&lt;pre&gt;&lt;code&gt;[]() ,例： [主页链接](http://eyow.xyz/)
+&lt;/code&gt;&lt;/pre&gt;&lt;a href=&quot;http://eyow.xyz/&quot;&gt;主页链接&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;粗体斜体&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;两个*粗体，例：**粗体**
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;斜体一个*，例：*斜体*
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;代码&lt;h5 id=&quot;标记一小段行内两个｀把代码包含即可&quot;&gt;&lt;a href=&quot;#标记一小段行内两个｀把代码包含即可&quot; class=&quot;headerlink&quot; title=&quot;标记一小段行内两个｀把代码包含即可&quot;&gt;&lt;/a&gt;标记一小段行内两个｀把代码包含即可&lt;/h5&gt;&lt;code&gt;(&amp;quot;Hello word&amp;quot;);&lt;/code&gt;&lt;h5 id=&quot;代码块&quot;&gt;&lt;a href=&quot;#代码块&quot; class=&quot;headerlink&quot; title=&quot;代码块&quot;&gt;&lt;/a&gt;代码块&lt;/h5&gt;&lt;pre&gt;&lt;code&gt;public void test(){
+　System.out.println(&amp;quot;Hello word&amp;quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;分割线&lt;pre&gt;&lt;code&gt;大于等于三个*、-都可以  例：---
+&lt;/code&gt;&lt;/pre&gt;—&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.jianshu.com/users/13b385ebe91f/timeline&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;简书首发&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;刚刚改用Markdown，记录下基本语法，分享如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;列表&lt;pre&gt;&lt;code&gt;-或*无序列表
+1.2.有序列表
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;无序1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;无序2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;引用&lt;pre&gt;&lt;code&gt;&amp;gt; 加尖括号,例：&amp;gt;引用
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;引用&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;图片&lt;pre&gt;&lt;code&gt;![](),例：![图片](http://7xrlxf.com1.z0.glb.clouddn.com/jianshu.jpg &amp;quot;头像&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;img src=&quot;http://7xrlxf.com1.z0.glb.clouddn.com/jianshu.jpg&quot; alt=&quot;图片&quot; title=&quot;头像&quot;&gt;&lt;/li&gt;
+&lt;li&gt;链接&lt;pre&gt;&lt;code&gt;[]() ,例： [主页链接](http://eyow.xyz/)
+&lt;/code&gt;&lt;/pre&gt;&lt;a href=&quot;http://eyow.xyz/&quot;&gt;主页链接&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;粗体斜体&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;两个*粗体，例：**粗体**
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;斜体一个*，例：*斜体*
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;代码&lt;h5 id=&quot;标记一小段行内两个｀把代码包含即可&quot;&gt;&lt;a href=&quot;#标记一小段行内两个｀把代码包含即可&quot; class=&quot;headerlink&quot; title=&quot;标记一小段行内两个｀把代码包含即可&quot;&gt;&lt;/a&gt;标记一小段行内两个｀把代码包含即可&lt;/h5&gt;&lt;code&gt;(&amp;quot;Hello word&amp;quot;);&lt;/code&gt;&lt;h5 id=&quot;代码块&quot;&gt;&lt;a href=&quot;#代码块&quot; class=&quot;headerlink&quot; title=&quot;代码块&quot;&gt;&lt;/a&gt;代码块&lt;/h5&gt;&lt;pre&gt;&lt;code&gt;public void test(){
+　System.out.println(&amp;quot;Hello word&amp;quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;分割线&lt;pre&gt;&lt;code&gt;大于等于三个*、-都可以  例：---
+&lt;/code&gt;&lt;/pre&gt;—
+    
+    </summary>
+    
+    
+      <category term="Markdown" scheme="http://eyow.xyz/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
     <title>常用Android Studio插件</title>
     <link href="http://eyow.xyz/2016/03/18/%E5%B8%B8%E7%94%A8Android-Studio%E6%8F%92%E4%BB%B6/"/>
     <id>http://eyow.xyz/2016/03/18/常用Android-Studio插件/</id>
     <published>2016-03-18T01:45:12.000Z</published>
-    <updated>2016-03-18T02:12:22.305Z</updated>
+    <updated>2016-03-18T06:21:25.584Z</updated>
     
     <content type="html">&lt;ol&gt;
 &lt;li&gt;android-butterknife-zeleznyandroid-butterknife-zelezny&lt;br&gt;视图绑定，能够方便快速初始化&lt;/li&gt;
@@ -41,6 +125,8 @@
     
     </summary>
     
+    
+      <category term="Android" scheme="http://eyow.xyz/tags/Android/"/>
     
   </entry>
   
