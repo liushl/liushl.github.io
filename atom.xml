@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://eyow.xyz/"/>
-  <updated>2016-03-19T04:16:29.247Z</updated>
+  <updated>2016-03-19T04:59:18.199Z</updated>
   <id>http://eyow.xyz/</id>
   
   <author>
@@ -20,77 +20,60 @@
     <link href="http://eyow.xyz/2016/03/19/Markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E8%AE%B0/"/>
     <id>http://eyow.xyz/2016/03/19/Markdown语法简记/</id>
     <published>2016-03-19T04:03:56.000Z</published>
-    <updated>2016-03-19T04:16:29.247Z</updated>
+    <updated>2016-03-19T04:59:18.199Z</updated>
     
     <content type="html">&lt;p&gt;刚刚改用Markdown，记录下基本语法，分享如下：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;列表&lt;pre&gt;&lt;code&gt;-或*无序列表
-1.2.有序列表
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;h3 id=&quot;1、列表&quot;&gt;&lt;a href=&quot;#1、列表&quot; class=&quot;headerlink&quot; title=&quot;1、列表&quot;&gt;&lt;/a&gt;1、列表&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;-或*无序列表&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;1.2.有序列表&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
 &lt;li&gt;无序1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
 &lt;li&gt;无序2&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;引用&lt;pre&gt;&lt;code&gt;&amp;gt; 加尖括号,例：&amp;gt;引用
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;h3 id=&quot;2、引用&quot;&gt;&lt;a href=&quot;#2、引用&quot; class=&quot;headerlink&quot; title=&quot;2、引用&quot;&gt;&lt;/a&gt;2、引用&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; 加尖括号,例：&amp;gt;引用&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
 &lt;p&gt;引用&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;图片&lt;pre&gt;&lt;code&gt;![](),例：![图片](http://7xrlxf.com1.z0.glb.clouddn.com/jianshu.jpg &amp;quot;头像&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;&lt;img src=&quot;http://7xrlxf.com1.z0.glb.clouddn.com/jianshu.jpg&quot; alt=&quot;图片&quot; title=&quot;头像&quot;&gt;&lt;/li&gt;
-&lt;li&gt;链接&lt;pre&gt;&lt;code&gt;[]() ,例： [主页链接](http://eyow.xyz/)
-&lt;/code&gt;&lt;/pre&gt;&lt;a href=&quot;http://eyow.xyz/&quot;&gt;主页链接&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;粗体斜体&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;两个*粗体，例：**粗体**
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;斜体一个*，例：*斜体*
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;代码&lt;h5 id=&quot;标记一小段行内两个｀把代码包含即可&quot;&gt;&lt;a href=&quot;#标记一小段行内两个｀把代码包含即可&quot; class=&quot;headerlink&quot; title=&quot;标记一小段行内两个｀把代码包含即可&quot;&gt;&lt;/a&gt;标记一小段行内两个｀把代码包含即可&lt;/h5&gt;&lt;code&gt;(&amp;quot;Hello word&amp;quot;);&lt;/code&gt;&lt;h5 id=&quot;代码块&quot;&gt;&lt;a href=&quot;#代码块&quot; class=&quot;headerlink&quot; title=&quot;代码块&quot;&gt;&lt;/a&gt;代码块&lt;/h5&gt;&lt;pre&gt;&lt;code&gt;public void test(){
-　System.out.println(&amp;quot;Hello word&amp;quot;);
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;分割线&lt;pre&gt;&lt;code&gt;大于等于三个*、-都可以  例：---
-&lt;/code&gt;&lt;/pre&gt;—&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.jianshu.com/users/13b385ebe91f/timeline&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;简书首发&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h3 id=&quot;3、图片&quot;&gt;&lt;a href=&quot;#3、图片&quot; class=&quot;headerlink&quot; title=&quot;3、图片&quot;&gt;&lt;/a&gt;3、图片&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;![](),例：![图片](http://7xrlxf.com1.z0.glb.clouddn.com/jianshu.jpg &lt;span class=&quot;string&quot;&gt;&quot;头像&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xrlxf.com1.z0.glb.clouddn.com/jianshu.jpg&quot; alt=&quot;图片&quot; title=&quot;头像&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;4、链接&quot;&gt;&lt;a href=&quot;#4、链接&quot; class=&quot;headerlink&quot; title=&quot;4、链接&quot;&gt;&lt;/a&gt;4、链接&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;[](),例：[主页链接](http://eyow.xyz/)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&quot;http://eyow.xyz/&quot;&gt;主页链接&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;5、粗体斜体&quot;&gt;&lt;a href=&quot;#5、粗体斜体&quot; class=&quot;headerlink&quot; title=&quot;5、粗体斜体&quot;&gt;&lt;/a&gt;5、粗体斜体&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;两个*粗体，例：**粗体**&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;斜体一个*，例：*斜体*&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&quot;6、代码&quot;&gt;&lt;a href=&quot;#6、代码&quot; class=&quot;headerlink&quot; title=&quot;6、代码&quot;&gt;&lt;/a&gt;6、代码&lt;/h3&gt;&lt;h5 id=&quot;标记一小段行内两个｀把代码包含即可&quot;&gt;&lt;a href=&quot;#标记一小段行内两个｀把代码包含即可&quot; class=&quot;headerlink&quot; title=&quot;标记一小段行内两个｀把代码包含即可&quot;&gt;&lt;/a&gt;标记一小段行内两个｀把代码包含即可&lt;/h5&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;`(&lt;span class=&quot;string&quot;&gt;&quot;Hello word&quot;&lt;/span&gt;);`&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h5 id=&quot;代码块&quot;&gt;&lt;a href=&quot;#代码块&quot; class=&quot;headerlink&quot; title=&quot;代码块&quot;&gt;&lt;/a&gt;代码块&lt;/h5&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;public void &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;title&quot;&gt;test&lt;/span&gt;&lt;/span&gt;()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;　　System.out.println(&lt;span class=&quot;string&quot;&gt;&quot;Hello word&quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;7、分割线&quot;&gt;&lt;a href=&quot;#7、分割线&quot; class=&quot;headerlink&quot; title=&quot;7、分割线&quot;&gt;&lt;/a&gt;7、分割线&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;大于等于三个*、-都可以  例：---&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;hr&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;@&lt;a href=&quot;http://www.jianshu.com/users/13b385ebe91f/timeline&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;简书首发&lt;/a&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
     
       &lt;p&gt;刚刚改用Markdown，记录下基本语法，分享如下：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;列表&lt;pre&gt;&lt;code&gt;-或*无序列表
-1.2.有序列表
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;h3 id=&quot;1、列表&quot;&gt;&lt;a href=&quot;#1、列表&quot; class=&quot;headerlink&quot; title=&quot;1、列表&quot;&gt;&lt;/a&gt;1、列表&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;-或*无序列表&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;1.2.有序列表&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
 &lt;li&gt;无序1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
 &lt;li&gt;无序2&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;引用&lt;pre&gt;&lt;code&gt;&amp;gt; 加尖括号,例：&amp;gt;引用
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;h3 id=&quot;2、引用&quot;&gt;&lt;a href=&quot;#2、引用&quot; class=&quot;headerlink&quot; title=&quot;2、引用&quot;&gt;&lt;/a&gt;2、引用&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; 加尖括号,例：&amp;gt;引用&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
 &lt;p&gt;引用&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;图片&lt;pre&gt;&lt;code&gt;![](),例：![图片](http://7xrlxf.com1.z0.glb.clouddn.com/jianshu.jpg &amp;quot;头像&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;&lt;img src=&quot;http://7xrlxf.com1.z0.glb.clouddn.com/jianshu.jpg&quot; alt=&quot;图片&quot; title=&quot;头像&quot;&gt;&lt;/li&gt;
-&lt;li&gt;链接&lt;pre&gt;&lt;code&gt;[]() ,例： [主页链接](http://eyow.xyz/)
-&lt;/code&gt;&lt;/pre&gt;&lt;a href=&quot;http://eyow.xyz/&quot;&gt;主页链接&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;粗体斜体&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;两个*粗体，例：**粗体**
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;斜体一个*，例：*斜体*
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;代码&lt;h5 id=&quot;标记一小段行内两个｀把代码包含即可&quot;&gt;&lt;a href=&quot;#标记一小段行内两个｀把代码包含即可&quot; class=&quot;headerlink&quot; title=&quot;标记一小段行内两个｀把代码包含即可&quot;&gt;&lt;/a&gt;标记一小段行内两个｀把代码包含即可&lt;/h5&gt;&lt;code&gt;(&amp;quot;Hello word&amp;quot;);&lt;/code&gt;&lt;h5 id=&quot;代码块&quot;&gt;&lt;a href=&quot;#代码块&quot; class=&quot;headerlink&quot; title=&quot;代码块&quot;&gt;&lt;/a&gt;代码块&lt;/h5&gt;&lt;pre&gt;&lt;code&gt;public void test(){
-　System.out.println(&amp;quot;Hello word&amp;quot;);
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;分割线&lt;pre&gt;&lt;code&gt;大于等于三个*、-都可以  例：---
-&lt;/code&gt;&lt;/pre&gt;—
+&lt;h3 id=&quot;3、图片&quot;&gt;&lt;a href=&quot;#3、图片&quot; class=&quot;headerlink&quot; title=&quot;3、图片&quot;&gt;&lt;/a&gt;3、图片&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;![](),例：![图片](http://7xrlxf.com1.z0.glb.clouddn.com/jianshu.jpg &lt;span class=&quot;string&quot;&gt;&quot;头像&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xrlxf.com1.z0.glb.clouddn.com/jianshu.jpg&quot; alt=&quot;图片&quot; title=&quot;头像&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;4、链接&quot;&gt;&lt;a href=&quot;#4、链接&quot; class=&quot;headerlink&quot; title=&quot;4、链接&quot;&gt;&lt;/a&gt;4、链接&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;[](),例：[主页链接](http://eyow.xyz/)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&quot;http://eyow.xyz/&quot;&gt;主页链接&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;5、粗体斜体&quot;&gt;&lt;a href=&quot;#5、粗体斜体&quot; class=&quot;headerlink&quot; title=&quot;5、粗体斜体&quot;&gt;&lt;/a&gt;5、粗体斜体&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;两个*粗体，例：**粗体**&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;斜体一个*，例：*斜体*&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&quot;6、代码&quot;&gt;&lt;a href=&quot;#6、代码&quot; class=&quot;headerlink&quot; title=&quot;6、代码&quot;&gt;&lt;/a&gt;6、代码&lt;/h3&gt;&lt;h5 id=&quot;标记一小段行内两个｀把代码包含即可&quot;&gt;&lt;a href=&quot;#标记一小段行内两个｀把代码包含即可&quot; class=&quot;headerlink&quot; title=&quot;标记一小段行内两个｀把代码包含即可&quot;&gt;&lt;/a&gt;标记一小段行内两个｀把代码包含即可&lt;/h5&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;`(&lt;span class=&quot;string&quot;&gt;&quot;Hello word&quot;&lt;/span&gt;);`&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h5 id=&quot;代码块&quot;&gt;&lt;a href=&quot;#代码块&quot; class=&quot;headerlink&quot; title=&quot;代码块&quot;&gt;&lt;/a&gt;代码块&lt;/h5&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;public void &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;title&quot;&gt;test&lt;/span&gt;&lt;/span&gt;()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;　　System.out.println(&lt;span class=&quot;string&quot;&gt;&quot;Hello word&quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;7、分割线&quot;&gt;&lt;a href=&quot;#7、分割线&quot; class=&quot;headerlink&quot; title=&quot;7、分割线&quot;&gt;&lt;/a&gt;7、分割线&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;大于等于三个*、-都可以  例：---&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;hr&gt;
     
     </summary>
     
@@ -104,24 +87,19 @@
     <link href="http://eyow.xyz/2016/03/18/%E5%B8%B8%E7%94%A8Android-Studio%E6%8F%92%E4%BB%B6/"/>
     <id>http://eyow.xyz/2016/03/18/常用Android-Studio插件/</id>
     <published>2016-03-18T01:45:12.000Z</published>
-    <updated>2016-03-18T06:21:25.584Z</updated>
+    <updated>2016-03-19T05:02:30.653Z</updated>
     
-    <content type="html">&lt;ol&gt;
-&lt;li&gt;android-butterknife-zeleznyandroid-butterknife-zelezny&lt;br&gt;视图绑定，能够方便快速初始化&lt;/li&gt;
-&lt;li&gt;Android Parcelable code generator&lt;br&gt;帮助实体bean生成Parcelable接口&lt;/li&gt;
-&lt;li&gt;Gsonformat&lt;br&gt;根据json数据快速生成java实体类 &lt;/li&gt;
-&lt;li&gt;Android Drawable Importer&lt;/li&gt;
-&lt;li&gt;Lifecycle Sorter&lt;br&gt;根据Activity或者fragment的生命周期对其生命周期方法位置进行先后排序&lt;/li&gt;
-&lt;li&gt;JsonOnlineViewer&lt;br&gt;直接在android studio中调试接口数据&lt;/li&gt;
-&lt;li&gt;Android Code Generator Plugin&lt;br&gt;自动生成findViewById ，类似插件蛮多，有了butterknife，这个就不怎么用&lt;/li&gt;
-&lt;/ol&gt;
+    <content type="html">&lt;h4 id=&quot;1-android-butterknife-zeleznyandroid-butterknife-zelezny&quot;&gt;&lt;a href=&quot;#1-android-butterknife-zeleznyandroid-butterknife-zelezny&quot; class=&quot;headerlink&quot; title=&quot;1. android-butterknife-zeleznyandroid-butterknife-zelezny&quot;&gt;&lt;/a&gt;1. android-butterknife-zeleznyandroid-butterknife-zelezny&lt;/h4&gt;&lt;p&gt;视图绑定，能够方便快速初始化&lt;/p&gt;
+&lt;h4 id=&quot;2-Android-Parcelable-code-generator&quot;&gt;&lt;a href=&quot;#2-Android-Parcelable-code-generator&quot; class=&quot;headerlink&quot; title=&quot;2. Android Parcelable code generator&quot;&gt;&lt;/a&gt;2. Android Parcelable code generator&lt;/h4&gt;&lt;p&gt;帮助实体bean生成Parcelable接口&lt;/p&gt;
+&lt;h4 id=&quot;3-Gsonformat&quot;&gt;&lt;a href=&quot;#3-Gsonformat&quot; class=&quot;headerlink&quot; title=&quot;3. Gsonformat&quot;&gt;&lt;/a&gt;3. Gsonformat&lt;/h4&gt;&lt;p&gt;根据json数据快速生成java实体类 &lt;/p&gt;
+&lt;h4 id=&quot;4-Android-Drawable-Importer&quot;&gt;&lt;a href=&quot;#4-Android-Drawable-Importer&quot; class=&quot;headerlink&quot; title=&quot;4. Android Drawable Importer&quot;&gt;&lt;/a&gt;4. Android Drawable Importer&lt;/h4&gt;&lt;h4 id=&quot;5-Lifecycle-Sorter&quot;&gt;&lt;a href=&quot;#5-Lifecycle-Sorter&quot; class=&quot;headerlink&quot; title=&quot;5. Lifecycle Sorter&quot;&gt;&lt;/a&gt;5. Lifecycle Sorter&lt;/h4&gt;&lt;p&gt;根据Activity或者fragment的生命周期对其生命周期方法位置进行先后排序&lt;/p&gt;
+&lt;h4 id=&quot;6-JsonOnlineViewer&quot;&gt;&lt;a href=&quot;#6-JsonOnlineViewer&quot; class=&quot;headerlink&quot; title=&quot;6. JsonOnlineViewer&quot;&gt;&lt;/a&gt;6. JsonOnlineViewer&lt;/h4&gt;&lt;p&gt;直接在android studio中调试接口数据&lt;/p&gt;
+&lt;h4 id=&quot;7-Android-Code-Generator-Plugin&quot;&gt;&lt;a href=&quot;#7-Android-Code-Generator-Plugin&quot; class=&quot;headerlink&quot; title=&quot;7. Android Code Generator Plugin&quot;&gt;&lt;/a&gt;7. Android Code Generator Plugin&lt;/h4&gt;&lt;p&gt;自动生成findViewById ，类似插件蛮多，有了butterknife，这个就不怎么用&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;ol&gt;
-&lt;li&gt;android-butterknife-zeleznyandroid-butterknife-zelezny&lt;br&gt;视图绑定，能够方便快速初始化&lt;/li&gt;
-&lt;li&gt;Android Parcelable code generator&lt;br&gt;帮助实体bean生成Pa
+      &lt;h4 id=&quot;1-android-butterknife-zeleznyandroid-butterknife-zelezny&quot;&gt;&lt;a href=&quot;#1-android-butterknife-zeleznyandroid-butterknife-zelezny&quot; class=
     
     </summary>
     
@@ -135,15 +113,18 @@
     <link href="http://eyow.xyz/2016/03/13/%E7%AC%94%E8%AE%B0-App%E7%A0%94%E5%8F%91%E5%BD%95/"/>
     <id>http://eyow.xyz/2016/03/13/笔记-App研发录/</id>
     <published>2016-03-13T15:09:51.000Z</published>
-    <updated>2016-03-13T15:43:56.510Z</updated>
+    <updated>2016-03-19T05:12:29.629Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;Android开发所需技能自我评测&quot;&gt;&lt;a href=&quot;#Android开发所需技能自我评测&quot; class=&quot;headerlink&quot; title=&quot;Android开发所需技能自我评测&quot;&gt;&lt;/a&gt;Android开发所需技能自我评测&lt;/h2&gt;&lt;p&gt;1、Activity相关。涉及LaunchMode、onSaveInstance-State 、生命周期等。&lt;br&gt;2、Fragment相关。&lt;br&gt;3、序列化相关。&lt;br&gt;4、ImageLoader的原理和使用。&lt;br&gt;5、fastJson或Gson的使用。&lt;br&gt;6、多线程相关。包括Handler、Looper、ExecutorService等。&lt;br&gt;7、Adapter和Listview。&lt;br&gt;8、用户cookie设计。&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;9、网络请求封装。&lt;br&gt;10、Android 与H5交互。&lt;br&gt;11、代码混淆。&lt;br&gt;12、调试工具。&lt;br&gt;13、Android打包机制。&lt;br&gt;14、线上Crash分析并修复。&lt;br&gt;15、内存泄漏。&lt;br&gt;16、Monkey机制。&lt;br&gt;17、单元测试。&lt;br&gt;18、GIT的高级功能。&lt;br&gt;19、插件化编程。&lt;br&gt;20、设计模式。常用工厂、生成器、适配器、代理、策略等。&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;Android开发所需技能自我评测&quot;&gt;&lt;a href=&quot;#Android开发所需技能自我评测&quot; class=&quot;headerlink&quot; title=&quot;Android开发所需技能自我评测&quot;&gt;&lt;/a&gt;Android开发所需技能自我评测&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;1、Activity相关。涉及LaunchMode、onSaveInstance-State 、生命周期等。&lt;br&gt;2、Fragment相关。&lt;br&gt;3、序列化相关。&lt;br&gt;4、ImageLoader的原理和使用。&lt;br&gt;5、fastJson或Gson的使用。&lt;br&gt;6、多线程相关。包括Handler、Looper、ExecutorService等。&lt;br&gt;7、Adapter和Listview。&lt;br&gt;8、用户cookie设计。&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;9、网络请求封装。&lt;br&gt;10、Android 与H5交互。&lt;br&gt;11、代码混淆。&lt;br&gt;12、调试工具。&lt;br&gt;13、Android打包机制。&lt;br&gt;14、线上Crash分析并修复。&lt;br&gt;15、内存泄漏。&lt;br&gt;16、Monkey机制。&lt;br&gt;17、单元测试。&lt;br&gt;18、GIT的高级功能。&lt;br&gt;19、插件化编程。&lt;br&gt;20、设计模式。常用工厂、生成器、适配器、代理、策略等。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&amp;amp;：最近状态不是很好，零零散散差不多两天把《App研发录》过了一遍，有实在东西的一本书，相看恨晚。&lt;br&gt;书后列举的几个技能觉得开发者很必要掌握，在此记录一下，虽有涉猎，却未能完全精通，最近要加强下啦~&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Android开发所需技能自我评测&quot;&gt;&lt;a href=&quot;#Android开发所需技能自我评测&quot; class=&quot;headerlink&quot; title=&quot;Android开发所需技能自我评测&quot;&gt;&lt;/a&gt;Android开发所需技能自我评测&lt;/h2&gt;&lt;p&gt;1、Activity相关。涉及LaunchMode、onSaveInstance-State 、生命周期等。&lt;br&gt;2、Fragment相关。&lt;br&gt;3、序列化相关。&lt;br&gt;4、ImageLoader的原理和使用。&lt;br&gt;5、fastJson或Gson的使用。&lt;br&gt;6、多线程相关。包括Handler、Looper、ExecutorService等。&lt;br&gt;7、Adapter和Listview。&lt;br&gt;8、用户cookie设计。
+      &lt;h2 id=&quot;Android开发所需技能自我评测&quot;&gt;&lt;a href=&quot;#Android开发所需技能自我评测&quot; class=&quot;headerlink&quot; title=&quot;Android开发所需技能自我评测&quot;&gt;&lt;/a&gt;Android开发所需技能自我评测&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;1、Activity相关。涉及LaunchMode、onSaveInstance-State 、生命周期等。&lt;br&gt;2、Fragment相关。&lt;br&gt;3、序列化相关。&lt;br&gt;4、ImageLoader的原理和使用。&lt;br&gt;5、fastJson或Gson的使用。&lt;br&gt;6、多线程相关。包括Handler、Looper、ExecutorService等。&lt;br&gt;7、Adapter和Listview。&lt;br&gt;8、用户cookie设计。
     
     </summary>
     
