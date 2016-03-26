@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://eyow.xyz/"/>
-  <updated>2016-03-24T15:54:07.693Z</updated>
+  <updated>2016-03-26T02:23:10.007Z</updated>
   <id>http://eyow.xyz/</id>
   
   <author>
@@ -14,6 +14,22 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>retrofit2.0入门</title>
+    <link href="http://eyow.xyz/2016/03/26/retrofit2-0%E5%85%A5%E9%97%A8/"/>
+    <id>http://eyow.xyz/2016/03/26/retrofit2-0入门/</id>
+    <published>2016-03-26T02:23:09.000Z</published>
+    <updated>2016-03-26T02:23:10.007Z</updated>
+    
+    <content type="html"></content>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>随笔记-324</title>
